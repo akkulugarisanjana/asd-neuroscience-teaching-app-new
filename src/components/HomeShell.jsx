@@ -1,0 +1,1 @@
+import React from 'react'; export default function HomeShell({children}){return(<div className='bg-white/95 rounded-2xl shadow-xl p-6'>{children}</div>) }
