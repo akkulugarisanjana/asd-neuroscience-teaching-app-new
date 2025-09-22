@@ -3,7 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  server: { port: 5173 },
-  build: { outDir: 'dist' },
-  base: process.env.VITE_BASE || '/'
+  base: '/asd-neuroscience-teaching-app/', // IMPORTANT for GitHub Pages
 })
