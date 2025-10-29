@@ -1,0 +1,16 @@
+Applied CORE FIXES (v3):
+- Fixed tab order (bold + underline active)
+- 44x44 buttons (styles/buttons.css) imported in src/index.css
+- Pause & Repeat on ActivityCard
+- Teacher PIN unlock + Settings Drawer (Confetti/Adaptive/Mute/Volume/Low Sensory)
+- Visual Schedule
+- Progress with accuracy %, avg RT, bars, CSV export
+- Turn-Token Flyer mini-game
+- Included public/sounds/pop.wav
+
+Run:
+npm i zustand howler canvas-confetti framer-motion papaparse
+npm run dev
+
+Open:
+http://localhost:5173/asd-neuroscience-teaching-app/

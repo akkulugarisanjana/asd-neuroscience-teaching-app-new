@@ -1,0 +1,46 @@
+/* Global tap targets >=44x44 */
+.btn, .btn-primary, .btn-secondary {
+  @apply min-w-[44px] min-h-[44px] px-4 py-2 rounded-xl font-semibold shadow-sm focus-visible:outline-none
+         focus-visible:ring-2 focus-visible:ring-blue-500;
+}
+.btn-primary { @apply bg-blue-600 text-white hover:bg-blue-700; }
+.btn-secondary { @apply bg-slate-100 hover:bg-slate-200; }
+
+/* Simple pulse used by Repeat */
+@keyframes pulseOnce { 
+  0% { transform: scale(1); } 
+  50% { transform: scale(1.03); } 
+  100% { transform: scale(1); } 
+}
+.pulse-once { animation: pulseOnce 0.6s ease-out; }
+
+
+/* Simple pulse used by Repeat */
+@keyframes pulseOnce { 
+  0% { transform: scale(1); } 
+  50% { transform: scale(1.03); } 
+  100% { transform: scale(1); } 
+}
+.pulse-once { animation: pulseOnce 0.6s ease-out; }
+
+/* Wiggle highlight for correct action hint */
+@keyframes wiggleRight {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(3px); }
+  50% { transform: translateX(-3px); }
+  75% { transform: translateX(2px); }
+}
+.wiggle-right { animation: wiggleRight 0.6s ease-in-out; }
+
+/* Star burst animation for correct answers */
+.star-burst {
+  font-size: 4rem;
+  line-height: 1;
+  filter: drop-shadow(0 4px 8px rgba(0,0,0,0.25));
+  animation: starPop 0.7s ease-out forwards;
+}
+@keyframes starPop {
+  0% { transform: scale(0.2) rotate(-20deg); opacity: 0; }
+  50% { transform: scale(1.1) rotate(10deg); opacity: 1; }
+  100% { transform: scale(1) rotate(0); opacity: 0; }
+}
