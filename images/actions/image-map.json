@@ -1,0 +1,29 @@
+{
+  "communication": {
+    "hi": "communication_hi.svg",
+    "help": "communication_help.svg",
+    "repair": "repair_repeat.svg",
+    "wh": "wh_questions.svg"
+  },
+  "emotions": {
+    "happy": "emotion_happy.svg",
+    "sad": "emotion_sad.svg",
+    "angry": "emotion_angry.svg",
+    "scared": "emotion_scared.svg",
+    "confused": "emotion_confused.svg",
+    "bored": "emotion_bored.svg"
+  },
+  "social": {
+    "follow_point": "social_point_follow.svg",
+    "wait_in_line": "social_wait_in_line.svg",
+    "personal_space": "social_personal_space.svg",
+    "stay_on_topic": "social_stay_on_topic.svg",
+    "my_turn": "turn_my.svg",
+    "your_turn": "turn_your.svg",
+    "red_light_green_light": "red_light_green_light.svg",
+    "queue_game": "queue_game.svg"
+  },
+  "scenarios": {
+    "lunchbox_help": "lunchbox_help.svg"
+  }
+}
